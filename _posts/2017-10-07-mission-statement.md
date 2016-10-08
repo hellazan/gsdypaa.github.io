@@ -1,6 +1,6 @@
 ---
 layout: post
-title: What's Jekyll?
+title: Mission Statement Bitches?
 tags: sticky
 ---
 
