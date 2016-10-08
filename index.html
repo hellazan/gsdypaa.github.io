@@ -4,7 +4,9 @@ title: Home
 ---
 
 <div class="posts">
+  {% include sticky.html %}
   {% for post in paginator.posts %}
+  {% if post.tag != 'sticky' %}
   <div class="post">
     <h1 class="post-title">
       <a href="{{ site.baseurl }}/{{ post.url }}">
@@ -16,6 +18,7 @@ title: Home
 
     {{ post.content }}
   </div>
+  {% endif %}
   {% endfor %}
 </div>
 
