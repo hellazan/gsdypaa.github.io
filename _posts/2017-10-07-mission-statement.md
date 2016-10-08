@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Mission Statement Bitches?
+title: Mission Statement Bitches
 tags: sticky
 ---
 
