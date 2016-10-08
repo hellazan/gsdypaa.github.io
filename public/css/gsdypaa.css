@@ -2,3 +2,14 @@
     width: 100%;
     padding: 3em;
 }
+
+.post-img.aa-brand {
+  width: 11em;
+  padding: 1em;
+}
+
+.center-image {
+  margin: 0 auto;
+  display: block;
+}
+

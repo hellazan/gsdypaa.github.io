@@ -3,7 +3,7 @@ layout: post
 title: Mission Statement Bitches
 tags: sticky
 ---
-
+![AA Brand]({{ site.url }}/public/logo.jpg){: .center-image .aa-brand .post-img}
 __Making a sticky post bitches!!__
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel massa
