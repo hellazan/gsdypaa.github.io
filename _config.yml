@@ -21,9 +21,6 @@ version:             1.0.0
 
 pagination:
   limit: false
-  per_page: 20
+  per_page: 5
   title_suffix: " (page :num)"
-
-gems:
-  - octopress-paginate
 
