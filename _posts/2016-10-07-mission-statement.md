@@ -4,15 +4,6 @@ title: Mission Statement Bitches
 tags: sticky
 ---
 ![AA Brand]({{ site.url }}/public/logo.jpg){: .center-image .aa-brand .post-img}
-__Making a sticky post bitches!!__
+__Mission Statement__
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vel massa
-quis orci elementum aliquam vitae ut arcu. Aliquam id dui at ante rhoncus
-tempus. Nunc vel turpis at tortor eleifend volutpat eget eget turpis.
-Praesent vitae efficitur urna. Etiam id massa eget tellus efficitur cursus.
-Nunc sed nulla convallis, venenatis dolor nec, scelerisque diam. Nullam
-vel ex gravida ante tristique elementum. Aenean mollis feugiat velit,
-sit amet tincidunt ex. Etiam et convallis diam. Curabitur mi mauris,
-ornare sed nulla id, tristique dapibus enim. Cras quis convallis lorem.
-Nullam eu consequat risus, at finibus leo. Maecenas dignissim dolor a mi
-pretium rutrum.
+We, The Greater San Diego Young People in Alcoholics Anonymous are composed of AA members working with each other, for each other, for the common purpose of staying sober and helping others to achieve sobriety. We believe we fill a need as a service body, introducing other alcoholics to the principles, traditions and service structure of AA. We are not a governing body of any group or individual. We neither endorse nor oppose any causes. We are self-supporting and do not solicit outside contributions. We invite all alcoholics to join us in our endeavors, enhancing and sharing the joys of sobriety.
