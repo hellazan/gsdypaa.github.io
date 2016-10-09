@@ -16,30 +16,3 @@
 .view-cap, .view-container-border {
   background-color: black;
 }
-
-.mv-daynames-table {
-  color: white;
-  background: black;
-}
-
-.mv-event-container {
-  border-top: 1px solid black;
-}
-
-.PageNavigation {
-  font-size: 14px;
-  display: block;
-  width: auto;
-  overflow: hidden;
-}
-
-.PageNavigation a {
-  display: block;
-  width: 50%;
-  float: left;
-  margin: 1em 0;
-}
-
-.PageNavigation .next {
-  text-align: right;
-}
