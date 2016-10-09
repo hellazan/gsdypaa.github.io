@@ -1,6 +1,6 @@
 #sidebar .sidebar-icon {
-    width: 100%;
-    padding: 3em;
+  width: 100%;
+  padding: 3em;
 }
 
 .post-img.aa-brand {
@@ -13,3 +13,15 @@
   display: block;
 }
 
+.view-cap, .view-container-border {
+  background-color: black;
+}
+
+.mv-daynames-table {
+  color: white;
+  background: black;
+}
+
+.mv-event-container {
+  border-top: 1px solid black;
+}

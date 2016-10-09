@@ -9,7 +9,6 @@ tagline:             'Honesty, Unity, Respect'
 description:         ''
 url:                 http://gsdypaa.github.io
 baseurl:             ''
-paginate:            5
 
 # About/contact
 author:
@@ -19,3 +18,12 @@ author:
 
 # Custom vars
 version:             1.0.0
+
+pagination:
+  limit: false
+  per_page: 20
+  title_suffix: " (page :num)"
+
+gems:
+  - octopress-paginate
+
