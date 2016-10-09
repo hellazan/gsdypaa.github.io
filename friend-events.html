@@ -1,6 +1,24 @@
 ---
 layout: category
 title: Friend Events
-paginate:
-  category: friend-events
 ---
+{% assign events = site.posts | where: 'category', 'friend-events' %}
+<div class="posts">
+  {% for event in events limit: 10 %}
+  {% unless event.tags contains 'sticky' %}
+  <div class="post">
+    <h1 class="post-title">
+      <a href="{{site.baseurl}}{{ event.url }}">
+        {{ event.title }}
+      </a>
+    </h1>
+
+    <span class="post-date">{{ event.date | date_to_string }}</span>
+
+    {{ event.excerpt }}
+    <a style="float: right" href="{{site.baseurl}}{{event.url}}">See whole post >></a>
+  </div>
+  {% endunless %}
+  {% endfor %}
+</div>
+

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Example content
+title: Example content (event)
 category: events
 ---
 
