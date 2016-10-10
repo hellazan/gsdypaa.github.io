@@ -2,6 +2,7 @@
 layout: post
 title: Example content (event)
 category: events
+published: false
 ---
 
 

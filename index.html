@@ -4,21 +4,23 @@ title: Home
 ---
 
 <div class="posts">
-  {% include sticky.html %}
+  {% if paginator.page == 1 %}
+    {% include sticky.html %}
+  {% endif %}
   {% for post in paginator.posts %}
-  {% unless post.tags contains 'sticky' %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ site.baseurl }}{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+    {% unless post.tags contains 'sticky' %}
+      <div class="post">
+        <h1 class="post-title">
+          <a href="{{ site.baseurl }}{{ post.url }}">
+            {{ post.title }}
+          </a>
+        </h1>
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
+        <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ post.content }}
-  </div>
-  {% endunless %}
+        {{ post.content }}
+      </div>
+    {% endunless %}
   {% endfor %}
 </div>
 
