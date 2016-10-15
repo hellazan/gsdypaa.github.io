@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Calender
+title: Calendar
 ---
 
 _Fellowshiping so hard!_ Join us for some kickass young peoples events.
