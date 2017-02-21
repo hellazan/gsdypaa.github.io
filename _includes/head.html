@@ -8,9 +8,9 @@
 
   <title>
     {% if page.title == "Home" %}
-    {{ site.title }} &middot; <br/> {{ site.tagline }}
+    {{ site.title }} &middot; <p> {{ site.tagline }} </p>
     {% else %}
-      {{ page.title }} &middot; {{ site.title }}
+    {{ page.title }} &middot; <p> {{ site.title }} </p>
     {% endif %}
   </title>
 
