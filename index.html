@@ -5,9 +5,12 @@ title: Home
 
 <div class="posts">
   {% if paginator.page == 1 %}
- <center> <iframe src="http://socalypaa.clickperfect.com/preview-timer/timer-code/timer/1" width="608" 
+ 
+  <center> <iframe src="http://socalypaa.clickperfect.com/preview-timer/timer-code/timer/1" width="608" 
                                 name="SOCALYPAA 9" frameborder="0" seamless="seamless" ></iframe></center>
+  
     <img src="{{ site.baseurl }}/public/images/SOCALYPAA-9.jpg" alt="SOCALYPAA" class="center-image post-img">
+  <br>
     {% include sticky.html %}
   {% endif %}
   {% for post in paginator.posts %}
