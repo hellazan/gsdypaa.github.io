@@ -11,7 +11,7 @@ title: Home
   
     <img src="{{ site.baseurl }}/public/images/SOCALYPAA-9.jpg" alt="SOCALYPAA" class="center-image post-img">
   <br>
-   <!---- {% include sticky.html %}
+    {% include sticky.html %}
   {% endif %}
   {% for post in paginator.posts %}
     {% unless post.tags contains 'sticky' %}
@@ -27,7 +27,7 @@ title: Home
         {{ post.content }}
       </div>
     {% endunless %}
-  {% endfor %}--->
+  {% endfor %}
 </div>
 
 <div class="pagination">
