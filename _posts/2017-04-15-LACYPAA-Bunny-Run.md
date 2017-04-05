@@ -1,7 +1,7 @@
 ---
 title: LACYPAA Presents: 5k Bunny Run
 layout: post
-category: Friend Events
+category: friend-events
 ---
 
 ![5k Bunny Run]({{ site.baseurl }}/public/images/bunnyrun.jpg "5k Bunny Run")
