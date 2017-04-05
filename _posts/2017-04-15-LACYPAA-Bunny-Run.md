@@ -1,6 +1,6 @@
 ---
-title: LACYPAA Presents: 5k Bunny Run
 layout: post
+title: LACYPAA Presents: 5k Bunny Run
 category: friend-events
 ---
 
